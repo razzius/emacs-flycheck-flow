@@ -129,6 +129,8 @@
 
 See URL `http://flowtype.org/'."
     :command (
+              "yarn"
+              "run"
               "flow"
               "check-contents"
               (eval flycheck-javascript-flow-args)
